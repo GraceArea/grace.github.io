@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap");
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea table,
+thead,
+tbody,
+tfoot,
+th,
+td,
+p,
+button,
+label,
+caption,
+legend,
+hr,
+select,
+form,
+fieldset,
+figure,
+figcaption,
+input,
+div,
+blockquote,
+pre,
+code,
+address,
+menu,
+nav,
+section,
+article,
+aside,
+object {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  overflow: hidden;
+}
+input {
+  border: none;
+}
+input::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+
+#clock {
+  font-size: 140px;
+  font-weight: 200;
+  text-align: center;
+  color: #fff;
+  padding-top: 200px;
+}
+
+#login-form {
+  float: left;
+  width: 280px;
+  margin: 10px 0 0 10px;
+}
+#login-form input[type="text"] {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+#greeting {
+  float: left;
+  margin: 10px 0 0 10px;
+  color: #fff;
+  font-size: 16px;
+}
+#greeting input {
+  display: inline-block;
+  padding: 6px 10px;
+  border-bottom: 1px solid #fff;
+}
+.btn-login {
+  padding: 6px 15px;
+  border-radius: 50px;
+}
+
+#todo-form {
+  margin-top: 60px;
+  text-align: center;
+}
+#todo-form input {
+  width: 500px;
+  color: #fff;
+  font-size: 36px;
+  padding: 6px 10px;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+}
+
+#todo-list {
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 60px;
+}
+#todo-list li {
+  margin-top: 10px;
+}
+#todo-list span {
+  font-size: 20px;
+  font-weight: 600;
+}
+#todo-list button {
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+}
+
+#weather {
+  float: right;
+  margin: 10px 10px 0 0;
+}
+#weather span {
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
